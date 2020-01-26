@@ -7,10 +7,14 @@ margin-top: 29px
 }
 .ab{
 font-size: 14px;
-color: #f38181;
+color: #95e1d3;
 font-family: 'Montserrat', sans-serif;
 font-weight: 400;
 text-align: center;
+}
+.ab:hover{
+    text-decoration: underline;
+    color: #f38181;
 }
 .ser{
 font-size: 14px;
@@ -19,12 +23,20 @@ font-family: 'Montserrat', sans-serif;
 font-weight: 400;
 text-align: center;
 }
+.ser:hover{
+    text-decoration: underline;
+    color: #f38181;
+}
 .wo{
 font-size: 14px;
 color: #95e1d3;
 font-family: 'Montserrat', sans-serif;
 font-weight: 400;
 text-align: center;
+}
+.wo:hover{
+    text-decoration: underline;
+    color: #f38181;
 }
 .bl{
 font-size: 14px;
@@ -33,6 +45,10 @@ font-family: 'Montserrat', sans-serif;
 font-weight: 400;
 text-align: center;
 }
+.bl:hover{
+    text-decoration: underline;
+    color: #f38181;
+}
 .con{
 font-size: 14px;
 color: #95e1d3;
@@ -40,13 +56,19 @@ font-family: 'Montserrat', sans-serif;
 font-weight: 400;
 text-align: center;
 }
+.con:hover{
+    text-decoration: underline;
+    color: #f38181;
+}
 nav{
 display:flex;
 justify-content: flex-end;    
 }
-p{
+li{
 margin-left: 57px;
 margin-right: 57px;
+text-decoration: none;
+display: inline-flex;
 }
 .h{
     font-size: 24px;
@@ -66,7 +88,8 @@ h2{
 font-size: 14px;
 color: #333333;
 font-family: 'Montserrat', sans-serif;
-font-weight: 400
+font-weight: 400;
+margin-left: 110px;
 }
 .p{
 width: 290px;
@@ -76,6 +99,8 @@ line-height: 24px;
 color: #999999;
 font-family: 'Roboto', sans-serif;
 font-weight: 400;
+margin-left: 30px;
+margin-right: 30px;
 }
 .div{
     display: flex;
@@ -138,6 +163,22 @@ text-align: center;
 display: flex;
 justify-content: center;   
 }
+.div21{
+display: inline-flex;
+}
+a{
+    color: #95e1d3;
+    text-decoration: none;  
+}
+a:hover{
+    text-decoration: underline;
+    color: #f38181
+}
+.img1:hover{
+    transition-property: all;
+}
+
+
 
 
 
